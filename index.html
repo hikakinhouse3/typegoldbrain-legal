@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Type Goldbrain — 法的情報</title>
+<style>
+:root {
+    --text: #1c1c1e;
+    --secondary: #6e6e73;
+    --bg: #ffffff;
+    --border: #e5e5e7;
+    --accent: #d63031;
+}
+* { box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.8;
+    margin: 0;
+    padding: 48px 16px 80px;
+}
+.container { max-width: 640px; margin: 0 auto; }
+h1 { font-size: 2rem; margin: 0 0 8px; }
+.subtitle { color: var(--secondary); font-size: 0.95rem; margin-bottom: 48px; }
+.links { display: flex; flex-direction: column; gap: 12px; }
+.link-card {
+    display: block;
+    padding: 20px 24px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.2s;
+}
+.link-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+.link-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
+.link-desc { font-size: 0.88rem; color: var(--secondary); }
+.support {
+    margin-top: 48px;
+    padding: 24px;
+    background: #f6f6f7;
+    border-radius: 12px;
+}
+.support h2 { font-size: 1rem; margin: 0 0 12px; }
+footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--secondary); font-size: 0.85rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Type Goldbrain</h1>
+<p class="subtitle">法的情報・サポート情報</p>
+
+<div class="links">
+    <a class="link-card" href="./privacy-policy.html">
+        <div class="link-title">プライバシーポリシー</div>
+        <div class="link-desc">取得する情報、利用目的、第三者提供等について</div>
+    </a>
+    <a class="link-card" href="./terms.html">
+        <div class="link-title">利用規約</div>
+        <div class="link-desc">サブスクリプション、禁止事項、免責事項等について</div>
+    </a>
+</div>
+
+<div class="support">
+    <h2>サポート・お問い合わせ</h2>
+    <p>本アプリに関するお問い合わせは下記まで:<br>
+    <a href="mailto:sentianzhen87@gmail.com">sentianzhen87@gmail.com</a></p>
+</div>
+
+<footer>
+<p>© 2026 森田まこと</p>
+</footer>
+
+</div>
+</body>
+</html>
